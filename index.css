@@ -1,0 +1,90 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font.ttf);
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("bask.jpeg");
+    background-size: cover;
+    color: white;
+}
+
+h3{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+/* h1{
+    font-family: 'Cursed Timer ULiL';
+} */
+.score{
+    /* border: 5px solid white; */
+    background: black;
+    font-family: 'myFirstFont';
+    border-radius: 5px;
+font-style: normal;
+font-weight: 200;
+font-size: 40px;
+line-height: 127px;
+margin-top: -30px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+}
+#home-div{
+    margin-right: 50px;
+}
+/* #away-div{
+    margin-left: 50px;
+} */
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    border: 5px solid white;
+    margin: 20px 70px 0 70px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.points, .coints{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #1B244A;
+    font-family: 'myFirstFont';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+margin-top: -25px;
+
+}
+
+button:hover{
+    background-color: #1434c1;
+}
+
+#save-btn{
+    margin-top: 10px;
+    color: aquamarine;
+}
